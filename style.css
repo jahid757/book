@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;500;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Hind Siliguri', sans-serif;
+}
+body{
+    background-color:#ececf0
+}
+ul,li{
+    list-style: none;
+}
+h2{
+    font-size: 25px;
+}
+
+/* main content */
+.main_content h2{
+    padding: 10px;
+    background-color:#fff;
+    border-bottom:1px solid #c4c3c3;
+}
+.content{
+    border:1.5px solid #c4c3c3;
+    margin: 10px;
+    border-radius: 3px;
+}
+.writer_card_container img{
+    width: 100px;
+    height:100px;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto;
+}
+.writer_card_container .card{
+    padding: 5px;
+    text-align:center;
+    width: 48%;
+}
+.book_card_container .single_book_row{
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.book_card_container .single_book_row .card{
+    padding: 8px;
+    box-shadow: 0 0 0 #000;
+    text-align:center;
+    width: 200px;
+    margin: 5px;
+}
+.book_card_container .single_book_row .card p{
+    margin-bottom: 2px;
+    font-size:21px;
+}
+.book_card_container .single_book_row .card img{
+    height: 200px;
+}
+.book_card_container .single_book_row .card a{
+    background-color: #17a2b8;
+    text-decoration: none;
+    color: #fff;
+    padding: 5px;
+    border-radius:10px
+}
+
+@media (max-width:478px) {
+    .book_card_container .single_book_row .card{
+        width:47%;
+    }
+}
