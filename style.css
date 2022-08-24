@@ -54,7 +54,7 @@ ul{
 
 
 /* main content */
-.main_content h2{
+.main_content h2,h3{
     padding: 10px;
     background-color:#fff;
     border-bottom:1px solid #c4c3c3;
@@ -78,7 +78,7 @@ ul{
 }
 .book_card_container .single_book_row{
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: flex-start;
 }
 .book_card_container .single_book_row .card{
     padding: 8px;
