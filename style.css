@@ -114,9 +114,7 @@ ul{
     height: 400px;
     overflow-y: scroll;
 }
-.extra_part::-webkit-scrollbar{
-    display: none;
-}
+
 
 
 
