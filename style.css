@@ -54,7 +54,7 @@ ul{
 
 
 /* main content */
-.main_content h2,h3{
+.main_content .bg-white,.bg-white{
     padding: 10px;
     background-color:#fff;
     border-bottom:1px solid #c4c3c3;
