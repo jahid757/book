@@ -28,9 +28,7 @@ ul{
 .logo img{
     width:150px;
 }
-.logo {
-    width:100%;
-}
+
 .header{
     background-color: #fff;
     padding: 10px;
@@ -64,7 +62,9 @@ h3 {
 p{
     font-size: 15px;
 }
-
+#menu_icon{
+    display:none;
+}
 
 /* main content */
 .main_content .bg-white,.bg-white{
@@ -192,6 +192,12 @@ p{
         display:none;
     }
     .menu.active{
+        display:block;
+    }
+    .logo {
+        width:100%;
+    }
+    #menu_icon{
         display:block;
     }
 }
