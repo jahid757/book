@@ -25,8 +25,11 @@ ul{
     margin: 0;padding: 0;
 }
 /* header */
-.logo{
+.logo img{
     width:150px;
+}
+.logo {
+    width:100%;
 }
 .header{
     background-color: #fff;
@@ -149,6 +152,10 @@ p{
 .search.active{
     display: flex !important;
 }
+#menu_icon{
+    text-align: center;
+    cursor: pointer;
+}
 
 
 
@@ -163,6 +170,8 @@ p{
 @media (max-width:991px) {
     .header{
         flex-direction: column;
+        align-items: center;
+        justify-content: center;
     }
     .logo,ul.menu{
         margin-bottom: 10px;
@@ -170,8 +179,19 @@ p{
         display:none !important;
     }
 }
-/* @media (max-width:1400px) {
-    .book_card_container .single_book_row .card{
-        justify-content:center;
+@media (max-width:576px) {
+    .header ul li{
+        display:block
     }
-} */
+    .logo{
+        display:flex;
+        align-items: center;
+        justify-content: space-between
+    }
+    .menu{
+        display:none;
+    }
+    .menu.active{
+        display:block;
+    }
+}
