@@ -133,10 +133,22 @@ p{
     height: 100vh;
     overflow-y: scroll;
 }
+.search_container{
+    display:flex
+}
 
+.search_icon{
+    width: 20px;
+    margin-left: 10px;
+    cursor: pointer;
+}
 
-
-
+.search{
+    display:none !important;
+}
+.search.active{
+    display: flex !important;
+}
 
 
 
