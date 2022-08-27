@@ -96,6 +96,7 @@ p{
 .book_card_container .single_book_row{
     flex-wrap: wrap;
     justify-content: center;
+    margin-top: 10px;
 }
 .book_card_container .single_book_row .card{
     padding: 8px;
@@ -111,12 +112,19 @@ p{
 .book_card_container .single_book_row .card img{
     height: 200px;
 }
-.book_card_container .single_book_row .card a{
+.book_card_container .single_book_row .card a,a.button{
     background-color: #17a2b8;
     text-decoration: none;
     color: #fff;
     padding: 5px;
     border-radius:10px
+}
+a.button{
+    display: block;
+    width: 90%;
+    text-align: center;
+    margin:0 auto;
+    margin-bottom: 5px;
 }
 
 .extra_part a{
@@ -179,8 +187,9 @@ p{
     cursor: pointer;
 }
 .writer_card_container .card{
-    width: 138px;
-    margin-bottom: 10px;
+    width: 135px;
+    margin: 0 2px;
+    /* margin-bottom: 10px; */
 }
 .writer_card_container{
     justify-content: center;
